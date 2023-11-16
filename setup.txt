@@ -1,0 +1,23 @@
+# Login to google account from chrome 
+
+# Follow the steps mentioned below link - API quick start - for GMAIL API auth
+
+https://developers.google.com/gmail/api/quickstart/python
+
+# Make sure to follow all the steps
+
+pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
+
+# Execute below file -> it will open chrome and need to accept one time for token creation
+
+python quickstart.py file 
+
+# Make sure credentials.json and token.josn avaliable same directory
+
+pip install AdvancedHTMLParser
+
+pip install googletrans
+
+# execute to get latest email href for any unread gmail inbox
+
+python get_gmail.py
